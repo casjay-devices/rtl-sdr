@@ -1,0 +1,13 @@
+[Unit]
+Description=RTL-SDR Server
+After=network.target
+
+[Service]
+ExecStart=/bin/sh -c "/usr/bin/rtl_tcp -d 1 -a 0.0.0.0"
+WorkingDirectory=/tmp
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
