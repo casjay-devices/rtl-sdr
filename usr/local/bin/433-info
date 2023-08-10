@@ -6,7 +6,7 @@ USER="${SUDO_USER:-${USER}}"
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # @Author      : Jason
-# @Contact     : casjaysdev@casjay.net
+# @Contact     : casjaysdev@casjay.pro
 # @File        : rtl_433
 # @Created     : 21/02/2020
 # @License     : WTFPL
